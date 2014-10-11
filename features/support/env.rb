@@ -8,6 +8,7 @@ require 'pdf/reader'
 require_relative 'wrapper'
 require 'rspec/expectations'
 require 'browsermob/proxy'
+require 'faker'
 
 require './features/support/java_libraries/gson-2.2.4.jar' if defined? JRUBY_VERSION
 require 'active_record'

@@ -48,6 +48,8 @@ Selenium find element using multiple locators
 
 Selenium find element by chaining find_element
 
+Create fake data sets using Faker gem
+
 yml examples
 
 json examples

@@ -9,6 +9,7 @@ gem 'nokogiri'
 gem 'activerecord'
 gem 'pdf-reader'
 gem 'browsermob-proxy'
+gem 'faker'
 
 #jdbc stuff
 gem 'activerecord-jdbc-adapter', :platform => :jruby
