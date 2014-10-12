@@ -31,8 +31,7 @@ Pre-Requisites
 1) Install firefox ( >25) and chrome (>30) and IE (>8)
 2) Download chromedriver.exe and IEDriverServer.exe and place in PATH
 3) System should have Java JDK 1.7 or higher and JAVA_HOME defined
-4) Install JRuby (http://jruby.org/) based on your platform type
-5) Install MRI ruby (https://www.ruby-lang.org/en/downloads/) based on your platform type
+4) Install MRI ruby (https://www.ruby-lang.org/en/downloads/) based on your platform type
 
 Index
 ===============
