@@ -2,11 +2,11 @@ Training
 ========
 
 I am using this project to help the community understand selenium webdriver with ruby
-and the whole world of ruby gems (the same project works with MRI ruby too). I wil keep adding documentation as much as possible
+and the whole world of ruby gems . I wil keep adding documentation as much as possible
 however if you stumble across the code and want to know more, please email me: pradeep@seleniumframework.com
 This project can be used by technical coaches for large and small companies to teach and also have
 implementation code that proves Test Automation should be encouraged as much as possible.
-This project is focused in using watir-webdriver and works on MRI and JRuby both.
+This project is focused in using watir-webdriver and works on MRI and JRuby runtimes.
 My other repo Training-Jruby (https://github.com/machzqcq/Training-JRuby) focused on Jruby
 
 There are multiple websites and files/resources used in this project based on scenario
