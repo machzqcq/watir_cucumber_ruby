@@ -28,5 +28,8 @@ gem 'sinatra'
 # gem to connect to saucelabs and also dynamically change browser parameters
 gem 'saucelabs'
 
+gem 'activerecord'
+gem 'sqlite3'
+
 
 
