@@ -66,13 +66,11 @@ Then(/^I query some columns from the table and print to console$/) do
 end
 
 When(/^I connect to development sqlite3 database$/) do
-  Jdbc::SQLite3.load_driver
-
-  ActiveRecord::Base.establish_connection(
-      :adapter => "jdbcsqlite3",
-      :database  => "./features/support/database/development_experimenting.sqlite3"
-      #:dbfile  => "./features/support/datafiles/development_experimenting.sqlite3"
+   ActiveRecord::Base.establish_connection(
+      :adapter => 'sqlite3',
+      :database => './features/support/database/development_experimenting.sqlite3'
   )
+  
   @sqlite3_connection = ActiveRecord::Base.connection
 end
 
