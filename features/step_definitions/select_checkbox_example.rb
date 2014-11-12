@@ -19,3 +19,7 @@ And(/^I expect to go back to welcome page$/) do
   p buttonelement.text
   expect buttonelement.text.should == "See Collection"
 end
+
+And(/^I select USA from continent dropdown$/) do
+  @browser.select_list(id: 'continents').select "USA"
+end

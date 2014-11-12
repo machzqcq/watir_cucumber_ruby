@@ -6,3 +6,9 @@ Feature: Demonstrating the use of select and check box
     And I check red tea
     Then I hit ok button
     And I expect to go back to welcome page
+
+  Scenario: Select box example
+    When I open practiceselenium form on website
+    And I select USA from continent dropdown
+    Then I hit ok button
+    And I expect to go back to welcome page
