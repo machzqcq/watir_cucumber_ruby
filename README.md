@@ -9,7 +9,8 @@ implementation code that proves Test Automation should be encouraged as much as 
 This project is focused in using watir-webdriver and works on MRI and JRuby runtimes.
 My other repo Training-Jruby (https://github.com/machzqcq/Training-JRuby) focused on Jruby
 
-There are multiple websites and files/resources used in this project based on scenario
+There are multiple websites and files/resources used in this project based on scenario.
+The primary website we would focus on trainings (www.seleniumframework.com) would be http://practiceselenium.com
 
 
 Capabilities offered

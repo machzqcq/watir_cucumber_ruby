@@ -1,5 +1,5 @@
-When(/^I open capital one website$/) do
-  @browser.goto "http://www.capitalone.com"
+When(/^I open practiceselenium website$/) do
+  @browser.goto "http://www.practiceselenium.com/"
 end
 
 Then(/^I print the title$/) do
@@ -13,6 +13,6 @@ Then(/^I expect the title to be "([^"]*)"$/) do |arg|
   expect(actualTitle).to eq(expectedTitle)
 end
 
-Then(/^I click sign\-in button$/) do
-  @browser.link(:text => 'Sign In').when_present.click
+Then(/^I click checkout button$/) do
+  @browser.link(:text => 'Check Out').when_present.click
 end
