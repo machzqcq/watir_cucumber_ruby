@@ -38,7 +38,7 @@ Then(/^I wait for jquery ajax calls to complete and progress$/) do
 
   max_time_wait = Time.now + 30
   until Time.now > max_time_wait
-    break if @browser.execute_script("return jQuery.active") == 0
+    break if @browser.execute_script("return jQuery.active") == '0'
     sleep 0.5
   end
 end
@@ -62,7 +62,7 @@ Then(/^I wait for prototype ajax calls to complete and progress$/) do
 
   max_time_wait = Time.now + 30
   until Time.now > max_time_wait
-    break if @browser.execute_script("return Ajax.activeRequestCount") == 0
+    break if @browser.execute_script("return Ajax.activeRequestCount") == '0'
     sleep 0.5
   end
 end
@@ -90,7 +90,7 @@ end
 Then(/^I wait for angular ajax calls to complete and progress$/) do
   max_time_wait = Time.now + 30
   until Time.now > max_time_wait
-    break if @browser.execute_script("return angular.element(document.body).injector().get(\'$http\').pendingRequests.length;") == 0
+    break if @browser.execute_script("return angular.element(document.body).injector().get(\'$http\').pendingRequests.length;") == '0'
     sleep 0.5
   end
 end
