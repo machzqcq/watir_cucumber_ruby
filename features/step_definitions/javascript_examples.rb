@@ -41,6 +41,18 @@ Then(/^I wait for jquery ajax calls to complete and progress$/) do
     break if @browser.execute_script("return jQuery.active") == '0'
     sleep 0.5
   end
+  
+  # The below block of code is much better than the above one since Watir explicit wait has 30 seconds timeout
+  
+ # Watir::Wait.until {
+  #      pendingRequests = @browser.execute_script("return jQuery.active")
+   #     sleep 0.5
+    #    puts "# of pending jquery requests: #{pendingRequests}
+     #   break if pendingRequests == "0"
+    #}
+  
+  
+  
 end
 
 When(/^I load prototype framework$/) do
